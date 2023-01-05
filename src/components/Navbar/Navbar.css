@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.logo {
+  height: 10rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 10rem;
+  background-color: #414754;
+  justify-content: space-between;
+}
+
+.icons {
+  margin: 1rem;
+}
+
+.input {
+  width: 678px;
+  height: 33px;
+  left: 621px;
+  top: 24px;
+}
