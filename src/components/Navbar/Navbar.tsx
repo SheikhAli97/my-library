@@ -12,16 +12,9 @@ function Navbar() {
       />
 
       <div className="icons">
-        <button>
-          <span>Favourites</span>
-        </button>
-        <button>
-          <span>Books ive read</span>
-        </button>
-
-        <button>
-          <span>Reading list</span>
-        </button>
+        <img src="src/assets/bx_bx-book-heart.png" />
+        <img src="src/assets/material-symbols_format-list-numbered.png" />
+        <img src="src/assets/mdi_tick-box-multiple-outline.png" />
       </div>
     </nav>
   )
