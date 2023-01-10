@@ -1,5 +1,5 @@
 import * as React from "react"
-import "./Card.css"
+
 import { hexToRgb, rgbToHex, styled } from "@mui/material/styles"
 import Card from "@mui/material/Card"
 import CardHeader from "@mui/material/CardHeader"
@@ -14,14 +14,19 @@ import { grey, red } from "@mui/material/colors"
 import FavoriteIcon from "@mui/icons-material/Favorite"
 import ShareIcon from "@mui/icons-material/Share"
 import MoreVertIcon from "@mui/icons-material/MoreVert"
+import { flexbox } from "@mui/system"
 
 export default function RecipeReviewCard() {
   return (
     <Card
       className="card"
       sx={{
-        maxWidth: 300,
-        maxHeight: 500,
+        minWidth: 300,
+        maxWidth: 600,
+        maxHeight: 600,
+        minHeight: 600,
+        margin: 2,
+        borderRadius: 3,
         bgcolor: hexToRgb("#373737"),
         color: hexToRgb("#808080"),
       }}

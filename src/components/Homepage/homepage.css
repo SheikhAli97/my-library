@@ -1,10 +1,12 @@
 .home {
   background-color: #242121;
   height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
 
-  grid-auto-rows: auto;
-
-  grid-gap: 1rem;
+  grid-area: images;
+  gap: 20px;
+  min-width: 600px;
+  min-height: 600px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
